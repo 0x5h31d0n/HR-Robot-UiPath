@@ -381,7 +381,7 @@
               <Throw DisplayName="Throw BE " Exception="[new BusinessRuleException(&quot;Email Id is Blank&quot;)]" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="Throw_1" />
             </If.Then>
           </If>
-          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[in_Config(&quot;EmailBody&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="youremail@gmail.com" EnableSSL="True" From="daemon.mailer005@gmail.com" sap:VirtualizedContainerService.HintSize="382,169" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="SJEC HR MANAGER" Password="appspecificpassword" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[in_Config(&quot;EmailSubject&quot;).ToString]" To="[str_Email]">
+          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[in_Config(&quot;EmailBody&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="youremail@gmail.com" EnableSSL="True" From="Enter your email" sap:VirtualizedContainerService.HintSize="382,169" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="SJEC HR MANAGER" Password="appspecificpassword" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[in_Config(&quot;EmailSubject&quot;).ToString]" To="[str_Email]">
             <ui:SendMail.Files>
               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                 <InArgument x:TypeArguments="x:String">[str_Pdf_Path]</InArgument>

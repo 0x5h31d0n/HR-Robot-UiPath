@@ -12,18 +12,16 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dt_rejecteddata&Sequence_5",
-        "dt_input&Sequence_5",
-        "dt_hireddata&Sequence_5"
+        "queueItems&Sequence_1",
+        "firstName&Sequence_1",
+        "lastName&Sequence_1",
+        "id&Sequence_1",
+        "address&Sequence_1",
+        "status&Sequence_1",
+        "email&Sequence_1",
+        "sendMailResult&Sequence_3",
+        "sendMailResult&Sequence_4"
       ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Sequence.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
